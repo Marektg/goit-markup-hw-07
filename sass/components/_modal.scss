@@ -1,4 +1,4 @@
-.main__backdrop {
+.main-backdrop {
   width: 100vw;
   height: 100vh;
   visibility: visible;
@@ -17,7 +17,7 @@
   opacity: 0;
   pointer-events: none;
 }
-.modal__window {
+.modal-window {
   position: absolute;
   height: $modalHeight;
   width: $modalWidth;
@@ -29,7 +29,7 @@
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
-  &-close-btn {
+  &__close-btn {
     padding: 0;
     position: sticky;
     right: 8px;
@@ -42,21 +42,21 @@
     display: flex;
     float: right;
   }
-  &-inputtitle {
+  &__inputtitle {
     font-size: 20px;
     font-weight: 700;
     text-align: center;
     margin-top: 40px;
     margin-bottom: 12px;
   }
-  &-input {
+  &__input {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-content: center;
   }
 }
-.modal__input-label {
+.modal-input__label {
   font-size: 12px;
   font-weight: 400;
   color: #757575;

@@ -9,19 +9,19 @@
     url("../images/headback.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 600px;}
-.main__hero {
-&-flex {
+  height: 600px;
+
+&__flex {
   display: flex;
   justify-content: center;
 }
-&-title-wrapper {
+&__title-wrapper {
   height: 200px;
   width: 696px;
   text-align: center;
 }
 
-&-title {
+&__title {
   font-weight: 900;
   font-size: 44px;
   color: #ffffff;
